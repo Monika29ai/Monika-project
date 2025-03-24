@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Monika R</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,56 +19,53 @@
             text-align: center;
             padding: 2rem 0;
             position: relative;
-            /* Add this */
         }
 
         .header-content h1 {
             font-size: 2.5rem;
         }
 
-        /* Add styles for the round profile picture */
+        /* Profile Picture Styling */
         .profile-picture {
             width: 100px;
-            /* Adjust the size as needed */
             height: 100px;
-            border-radius: 75%;
-            /* Create a circular shape */
+            border-radius: 50%;
             object-fit: cover;
-            /* To ensure the image fills the circular area */
             position: absolute;
-            /* Add this */
-            top: 75px;
-            /* Adjust top position as needed */
-            left: 75px;
-            /* Adjust left position as needed */
+            top: 20px;
+            left: 20px;
         }
 
         nav {
             background-color: #333;
             color: #fff;
             text-align: center;
+            padding: 10px 0;
         }
 
         nav ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
+            margin: 0;
         }
 
         nav ul li {
             display: inline;
-            margin: 0 20px;
+            margin: 0 15px;
         }
 
         nav ul li a {
             text-decoration: none;
             color: #fff;
+            font-size: 1.1rem;
         }
 
         .section-content {
             background-color: #fff;
             padding: 2rem;
-            margin: 1rem;
-            border-radius: 20px;
+            margin: 1rem auto;
+            width: 80%;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             text-align: justify;
         }
@@ -79,7 +78,7 @@
             border-radius: 20px;
             display: inline-block;
             margin-top: 10px;
-            align-self: center;
+            text-align: center;
         }
 
         .download-button:hover {
@@ -88,7 +87,7 @@
 
         footer {
             text-align: center;
-            padding: 1rem 0;
+            padding: 1rem;
             background-color: #333;
             color: #fff;
         }
@@ -101,11 +100,10 @@
 </head>
 
 <body>
+
     <header>
         <div class="header-content">
-            <!-- Add your profile picture here -->
-            <img src="C:\Users\priya\Desktop\New\WhatsApp Image 2025-03-14 at 20.01.23_bdc6e268.jpg"
-                alt="Your Profile Picture" class="profile-picture">
+            <img src="profile.jpg" alt="Monika R" class="profile-picture">
             <h1>Monika R</h1>
             <p>I am an AI Developer</p>
         </div>
@@ -118,21 +116,19 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resume</a></li>
-            <li><a href="#Languages Known">Languages-Known</a></li>
-            <li><a href="#Contact">Contact</a></li>
-
+            <li><a href="#languages-known">Languages Known</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <section id="about">
         <div class="section-content">
             <h2>About Me</h2>
-            <p>Hello! I'm Monika. R, a curious and ambitious AI student passionate about exploring the vast
-                possibilities of artificial intelligence. I'm dedicated to learning and experimenting with various AI
-                technologies, including machine learning, natural language processing, and computer vision. My goal is
-                to develop innovative AI solutions that can positively impact people's lives. I'm excited to collaborate
-                with like-minded individuals, share knowledge, and learn from others in the AI community.</p>
-
+            <p>Hello! I'm Monika R, a curious and ambitious AI student passionate about exploring the vast possibilities
+                of artificial intelligence. I'm dedicated to learning and experimenting with various AI technologies,
+                including machine learning, natural language processing, and computer vision. My goal is to develop
+                innovative AI solutions that can positively impact people's lives. I'm excited to collaborate with
+                like-minded individuals, share knowledge, and learn from others in the AI community.</p>
         </div>
     </section>
 
@@ -140,8 +136,6 @@
         <div class="section-content">
             <h2>Education</h2>
             <p>Madras University</p>
-
-
         </div>
     </section>
 
@@ -154,8 +148,7 @@
                 <li>Data Structures</li>
                 <li>HDFC</li>
                 <li>Typewriting</li>
-                <li>ML & AI</li>
-
+                <li>Machine Learning & AI</li>
             </ul>
         </div>
     </section>
@@ -165,70 +158,61 @@
             <h2>Projects</h2>
             <ul>
                 <li><a href="#">Restaurant Webpage</a></li>
-                <li><a href="#">Portfolio project</a></li>
-
+                <li><a href="#">Portfolio Project</a></li>
             </ul>
         </div>
     </section>
 
-        <section id="Languages-Known">
-            <div class="section-content">
-                <h2>Languages Known</h2>
-                <ul>
-                    <li>English</li>
-                    <li>Tamil</li>
-                    <li>Hindi</li>
+    <section id="languages-known">
+        <div class="section-content">
+            <h2>Languages Known</h2>
+            <ul>
+                <li>English</li>
+                <li>Tamil</li>
+                <li>Hindi</li>
+            </ul>
+        </div>
+    </section>
 
-                </ul>
-            </div>
-        </section>
+    <section id="contact">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <ul>
+                <li>Email: <a href="monicaravi2006@gmail.com">monicaravi2006@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/monika-ravi-868ab72a8" target="_blank">Monika R</a>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-            <section id="Contact">
-                <div class="section-content">
-                    <h2>Contact</h2>
-                    <ul>
+    <section id="resume">
+        <div class="section-content" style="text-align: center;">
+            <h2>Resume</h2>
+            <a href="Resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
 
+    <footer>
+        <p>&copy; 2025 Monika R</p>
+    </footer>
 
-                        <li>Email: monicaravi2006@gmail.com</li>
-                        <li>Linkedin: https://www.linkedin.com/in/monika-ravi-868ab72a8</li>
-
-                </div>
-            </section>
-
-            <section id="resume">
-
-                <div class="section-content">
-                    <center>
-                        <h2>Resume</h2>
-                        <a href="Resume.pdf" target="_blank" class="download-button">Download
-                            CV</a>
-                    </center>
-                </div>
-
-            </section>
-
-            <footer>
-                <p>&copy; 2025 Monika R</p>
-            </footer>
-
-            <script>
-                // Smooth scrolling to section when clicking on navigation links
-                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                    anchor.addEventListener('click', function (e) {
-                        e.preventDefault();
-
-                        const targetId = this.getAttribute('href').substring(1);
-                        const targetElement = document.getElementById(targetId);
-
-                        if (targetElement) {
-                            window.scrollTo({
-                                top: targetElement.offsetTop,
-                                behavior: 'smooth'
-                            });
-                        }
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 50,
+                        behavior: 'smooth'
                     });
-                });
-            </script>
+                }
+            });
+        });
+    </script>
+
 </body>
 
 </html>
